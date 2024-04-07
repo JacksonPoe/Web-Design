@@ -1,13 +1,13 @@
 
 body {
-    background-color: #D9A87E;
+    background-color: goldenrod;
 }
 #container {
-    background-color: #D9A87E;
-    padding: 20px;
-    width: 75%;
-    margin: 0 50;
-    border: 4px solid black;
+    background-color:#D9A87E;
+    padding: 50px;
+    width: 76%;
+    margin: 20 40;
+    border: 5px solid black;
 }
 header h1 { 
     text-align: left;
