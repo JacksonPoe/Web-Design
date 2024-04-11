@@ -1,0 +1,100 @@
+/* Gloabl Styles */
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+body {
+    background-color: goldenrod;
+}
+
+#container {
+    background-color: #D9A87E;
+    padding: 30px;
+}
+
+a {
+    color:black
+}
+ 
+a:hover {
+    color:azure;
+    text-decoration: none;
+}
+/* mobile styLES */
+nav {
+    background-color: rgb(237, 185, 105);
+    padding: 10px;
+    border-radius: 20PX;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color:azure;
+    background-color: rgb(219, 150, 65);
+    text-align: center;
+    margin: 5px 0;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav li a:hover {
+
+    background-color: aliceblue;
+}
+
+header h1{
+    font-size: 35px;
+    color: azure;
+}
+
+#bottom1 {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.colum {
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+footer {
+    padding: 40px 0
+}
+
+@media(min-width: 786px){
+    nav{
+        text-align: center;
+    }
+    nav li {
+        display: inline-block;
+    }
+    nav li a{
+        width: 200px;
+    }
+
+    img{
+        width: 65%;
+        margin: 0 auto;
+    }
+}
+/* Desktop Styles */
+
+@media (min-width: 1024px) {
+    .colum {
+        width: 33.33%;
+    }
+}
