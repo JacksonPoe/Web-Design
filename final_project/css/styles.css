@@ -11,7 +11,7 @@ body {
     background-color:#2E7122;
     padding: 50px;
     width: 76%;
-    margin: 50 40;
+    margin: 50px 40px;
     border: 5px solid black;
     display: grid;
     place-items: center;
@@ -73,7 +73,7 @@ nav li{
 
 nav li a {
     display: block;
-    height: 40 px;
+    height: 40px;
     line-height: 40px;
 }
 nav a:hover {
