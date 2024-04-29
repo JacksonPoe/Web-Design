@@ -1,3 +1,8 @@
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
 
 body {
     background-color: #BAA560;
@@ -15,6 +20,12 @@ body {
     display: grid;
     place-items: center;
 }
+.Construction {
+    text-align: center;
+    color: #BAA560;
+    font-size: 33px;
+    text-shadow: 2px 1px 2px #000;
+}
 .images {
     display: grid;
     place-items: center;
@@ -22,9 +33,11 @@ body {
 .colum{
     padding: 10px;
     margin: 12px;
-    border: 4px solid #400505;
-    width: 100.33%;
-    border-radius: 20px;
+    border: 3px solid goldenrod;
+    width: 86.33%;
+    border-radius: 30px;
+    display: flex;
+
 }
 #Bottom{
     display: flex;
@@ -35,9 +48,16 @@ header h1 {
     font-size: 55px;
     color:#BAA560;
     text-shadow: 2px 1px 2px #000;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 nav {
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     text-align: middle;
+    padding: 10px;
     
 }
 nav a {
@@ -46,13 +66,23 @@ nav a {
     font-weight: bold;
     margin: 0 10px;
 }
+
+nav li{ 
+    display: block;
+}
+
+nav li a {
+    display: block;
+    height: 40 px;
+    line-height: 40px;
+}
 nav a:hover {
     color: black;
     text-decoration: none;
 }
 
 a{
-    color: azure;
+    color: goldenrod;
 }
 a:hover {
     color: #000;
@@ -61,4 +91,32 @@ a:hover {
 footer{
     padding: 40px 0;
     text-align: center;
+}
+/*tablet Style*/
+@media(min-width: 768px) {
+    nav {
+        text-align: center;
+    }
+    nav li {display: inline-block;
+    }
+    nav li a {
+        width: 200px;
+    }
+    main img {
+        width: 50%;
+    }
+    .colum img {
+        width: 75%;
+    }
+}
+
+/* Desktop Style */
+@media (min-width: 1024px) {
+    .images {
+        width: 100%;
+        place-items: center;
+    }
+    .colum {
+        width: 100.33%;
+    }
 }
